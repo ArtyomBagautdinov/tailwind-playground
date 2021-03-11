@@ -1,0 +1,14 @@
+{
+  "About": {
+    "description": "Auto imported from components/about.vue"
+  },
+  "Benefits": {
+    "description": "Auto imported from components/benefits.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/header.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from components/hero.vue"
+  }
+}
