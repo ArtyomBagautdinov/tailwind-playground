@@ -1,11 +1,15 @@
 <template>
   <div>
     <page-header @goToSection="goToSection"/>
-    <hero @goToSection="goToSection"/>
+    <div ref="hero">
+      <hero @goToSection="goToSection"/>
+    </div>
     <div ref='benefits'>
       <benefits/>
     </div>
-    
+    <div ref='poolTypes'>
+      <pool-types/>
+    </div>
   </div>
 </template>
 
@@ -13,13 +17,15 @@
 import pageHeader from '@/components/header'
 import hero from '@/components/hero'
 import about from '@/components/about'
-import benefits from '@/components/benefits'
+import benefits from '@/components/benefits/benefits'
+import poolTypes from '@/components/poolTypes/poolTypes'
 export default {
   components : {
     pageHeader,
     hero,
     about,
-    benefits
+    benefits,
+    poolTypes
   },
   methods : {
     goToSection(section){

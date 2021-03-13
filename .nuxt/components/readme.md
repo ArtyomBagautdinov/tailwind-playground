@@ -7,7 +7,9 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<About>` | `<about>` (components/about.vue)
-- `<Benefits>` | `<benefits>` (components/benefits.vue)
 - `<Header>` | `<header>` (components/header.vue)
 - `<Hero>` | `<hero>` (components/hero.vue)
+- `<Benefits>` | `<benefits>` (components/benefits/benefits.vue)
 - `<BenefitsItem>` | `<benefits-item>` (components/benefits/benefitsItem.vue)
+- `<PoolTypes>` | `<pool-types>` (components/poolTypes/poolTypes.vue)
+- `<PoolTypesItem>` | `<pool-types-item>` (components/poolTypes/poolTypesItem.vue)

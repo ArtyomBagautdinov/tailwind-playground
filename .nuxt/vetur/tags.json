@@ -2,16 +2,22 @@
   "About": {
     "description": "Auto imported from components/about.vue"
   },
-  "Benefits": {
-    "description": "Auto imported from components/benefits.vue"
-  },
   "Header": {
     "description": "Auto imported from components/header.vue"
   },
   "Hero": {
     "description": "Auto imported from components/hero.vue"
   },
+  "Benefits": {
+    "description": "Auto imported from components/benefits/benefits.vue"
+  },
   "BenefitsItem": {
     "description": "Auto imported from components/benefits/benefitsItem.vue"
+  },
+  "PoolTypes": {
+    "description": "Auto imported from components/poolTypes/poolTypes.vue"
+  },
+  "PoolTypesItem": {
+    "description": "Auto imported from components/poolTypes/poolTypesItem.vue"
   }
 }
