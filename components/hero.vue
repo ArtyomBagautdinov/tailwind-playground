@@ -29,7 +29,7 @@ export default {
 <style>
     .hero-image {
         background-blend-mode: multiply;
-        background-image: url("@/assets/hero.jpg");
+        background-image: url("@/assets/images/hero.jpg");
         background-color: rgba(0, 0, 0, 0.5);
     }
 

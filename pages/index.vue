@@ -1,12 +1,10 @@
 <template>
   <div>
-    <page-header/>
+    <page-header @goToSection="goToSection"/>
     <hero @goToSection="goToSection"/>
-
-    <!--
-    <div ref='about'>
-      <about/>
-    </div> -->
+    <div ref='benefits'>
+      <benefits/>
+    </div>
     
   </div>
 </template>
@@ -15,11 +13,13 @@
 import pageHeader from '@/components/header'
 import hero from '@/components/hero'
 import about from '@/components/about'
+import benefits from '@/components/benefits'
 export default {
   components : {
     pageHeader,
     hero,
-    about
+    about,
+    benefits
   },
   methods : {
     goToSection(section){

@@ -10,3 +10,4 @@ You can directly use them in pages and other components without the need to impo
 - `<Benefits>` | `<benefits>` (components/benefits.vue)
 - `<Header>` | `<header>` (components/header.vue)
 - `<Hero>` | `<hero>` (components/hero.vue)
+- `<BenefitsItem>` | `<benefits-item>` (components/benefits/benefitsItem.vue)

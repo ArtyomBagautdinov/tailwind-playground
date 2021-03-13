@@ -10,5 +10,8 @@
   },
   "Hero": {
     "description": "Auto imported from components/hero.vue"
+  },
+  "BenefitsItem": {
+    "description": "Auto imported from components/benefits/benefitsItem.vue"
   }
 }
