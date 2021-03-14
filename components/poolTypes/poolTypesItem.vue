@@ -1,10 +1,7 @@
 <template>
     <div class="px-6 py-6 flex flex-col justify-between items-start mx-auto md:max-w-md sm:max-w-md">
         <div class="flex flex-row items-center">
-            <h3 class="text-xl uppercase w-full">
-                <!-- <img class="h-5 w-5" src="@/assets/icons/check-mark.svg" alt="check-mark"> -->
-                {{title}}
-            </h3>
+            <h3 class="text-xl uppercase w-full">{{title}}</h3>
         </div>
         <div class="w-full h-full flex flex-row xl:justify-start lg:justify-start md:justify-start sm:justify-center justify-center items-center p-5">
             <img :src="imageUrl" alt="image">
@@ -17,7 +14,7 @@
             </li>
         </ul>
         <div>
-            <button></button>
+            <button class="mt-5 bg-blue-500 px-4 py-3 text-white uppercase text-sm focus:outline-none hover:bg-blue-700 transition duration-300">рассчитать стоимость</button>
         </div>
     </div>
 </template>
