@@ -1,12 +1,12 @@
 <template>
     <div class="px-6 py-6 flex flex-col justify-between items-start mx-auto md:max-w-md sm:max-w-md">
         <div class="flex flex-row items-center">
-            <h3 class="text-xl uppercase w-1/2">
+            <h3 class="text-xl uppercase w-full">
                 <!-- <img class="h-5 w-5" src="@/assets/icons/check-mark.svg" alt="check-mark"> -->
                 {{title}}
             </h3>
         </div>
-        <div class="w-3/4 h-3/5 flex flex-row justify-start items-center p-5">
+        <div class="w-full h-full flex flex-row xl:justify-start lg:justify-start md:justify-start sm:justify-center justify-center items-center p-5">
             <img :src="imageUrl" alt="image">
         </div>
         <p>{{paragraph}}</p>
