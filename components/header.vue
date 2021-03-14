@@ -5,7 +5,7 @@
           <a @click="scrollTo('hero')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Главная</a>
           <a @click="scrollTo('benefits')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Преимущества</a>
           <a @click="scrollTo('poolTypes')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Виды бассейнов</a>
-          <a @click="scrollTo('benefits')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Расчет стоимости</a>
+          <a @click="scrollTo('calcPrice')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Расчет стоимости</a>
           <a @click="scrollTo('benefits')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Портфолио</a>
           <!-- <a class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Услуги</a> -->
           <!-- <a class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center">Вопросы</a> -->
@@ -24,7 +24,7 @@
               <a @click="toggleAndGo('hero')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Главная</a>
               <a @click="toggleAndGo('benefits')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Преимущества</a>
               <a @click="toggleAndGo('poolTypes')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Виды бассейнов</a>
-              <a @click="toggleAndGo('benefits')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Расчет стоимости</a>
+              <a @click="toggleAndGo('calcPrice')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Расчет стоимости</a>
               <a @click="toggleAndGo('benefits')" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Портфолио</a>
 
               <!-- <a @click="openMenu()" class="uppercase text-sm text-white cursor-pointer hover:text-yellow-400 transition duration-500 font-sans text-center py-2">Услуги</a>
