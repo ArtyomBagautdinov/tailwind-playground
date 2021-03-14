@@ -2,6 +2,9 @@
   "About": {
     "description": "Auto imported from components/about.vue"
   },
+  "CalcPrice": {
+    "description": "Auto imported from components/calcPrice.vue"
+  },
   "Header": {
     "description": "Auto imported from components/header.vue"
   },
